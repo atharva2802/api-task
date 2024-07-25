@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Shopify</h1>
+        </div>
+        <div class="header-center search-container">
+            <input type="text" id="search" placeholder="Search Products Here.....">
+            <button onclick="searchProducts()">Search</button>
+        </div>
+        <div class="header-right">
+           <!-- In your header section -->
+           <!-- <button id="cart" onclick="openCart()">Cart(0)</button> -->
+      <div class="buttons">
+                <!-- <button onclick="toggleDropdown()">Filter</button>
+                <div class="dropdown-content"> -->
+                    <button onclick="filterProducts('All')">Show All</button>
+                    <button onclick="filterProducts('Men')">Men</button>
+                    <button onclick="filterProducts('Women')">Women</button>
+                    <button onclick="filterProducts('Kids')">Kids</button>
+                    <button id="cart" onclick="openCart()">Cart(0)</button>
+                    <!-- <button onclick="filterProducts('Cart')">Cart</button> -->
+
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <div class="products-row" id="products"></div>
+    <script src="script.js"></script>
+</body>
+</html>

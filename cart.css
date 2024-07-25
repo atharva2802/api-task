@@ -1,0 +1,96 @@
+.cart {
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: #555; /* Medium grey background */
+    border: 1px solid #ffa500; /* Orange border */
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(255, 165, 0, 0.5); /* Orange shadow */
+}
+
+.cart h2 {
+    font-size: 18px;
+    margin-top: 0;
+    color: #ffa500; /* Orange color */
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.cart-item {
+    margin-top: 10px;
+    border: 1px solid #ffa500; /* Orange border */
+    border-radius: 4px;
+    padding: 10px;
+    background-color: ghostwhite; /* Darker grey background */
+    box-shadow: 0 2px 5px rgba(255, 165, 0, 0.5); /* Orange shadow */
+    transition: box-shadow 0.3s;
+    width: calc(20% - 20px);
+    box-sizing: border-box;
+    align-content: left;
+    text-align: center;
+}
+
+.cart-item img {
+    border: 1px solid #ffa500; /* Orange border */
+    border-radius: 4px;
+    height: 103.43px;
+    width: 77.96px;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item button {
+    background-color: #ffa500; /* Orange background */
+    border: none;
+    color: #fff; /* White text */
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cart-item button:hover {
+    background-color: #e68900; /* Darker orange on hover */
+}
+
+.cart-item-quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantity-btn {
+    background-color: #ffa500; /* Orange background */
+    border: none;
+    color: #fff; /* White text */
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+.quantity-btn:hover {
+    background-color: #e68900; /* Darker orange on hover */
+}
+
+.quantity-display {
+    font-size: 14px;
+    margin: 0 10px;
+}
+#total{
+    text-align: center;
+    align-items: center;
+    border: #555;
+    box-sizing: content-box;
+    background-color: aqua;
+
+}
